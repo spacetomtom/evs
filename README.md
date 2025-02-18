@@ -3,6 +3,7 @@
 ## Instructions
 L'application peut etre lancée avec la commande :
 ``` docker compose up ```
+et ensuite se rendre sur : http://localhost:8080/
 
 ## Fonctionnalités
 
