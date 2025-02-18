@@ -8,6 +8,7 @@ L'application peut etre lancée avec la commande :
 
 - Liste des examens
 - Création d'un examen
+![](exam.png)
 
 ## Todo
 
