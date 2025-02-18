@@ -12,10 +12,10 @@ import { ExamListComponent } from './app/exam-list/exam-list.component';
   standalone: true,
   imports: [ExamListComponent]
 })
-export class App {
+export class AppComponent {
 }
 
-bootstrapApplication(App, {
+bootstrapApplication(AppComponent, {
   providers: [
     provideHttpClient()
   ]

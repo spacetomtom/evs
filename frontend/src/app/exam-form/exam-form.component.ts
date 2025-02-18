@@ -1,7 +1,7 @@
 import { Component, Output, EventEmitter } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { ExamService, CreateExamDTO, ExamStatus } from '../exam.service';
+import { ExamService, CreateExamDTO } from '../exam.service';
 
 @Component({
   selector: 'app-exam-form',
@@ -129,7 +129,7 @@ export class ExamFormComponent {
 
   onSubmit() {
     this.examService.createExam(this.examData).subscribe({
-      next: (response) => {
+      next: () => {
         // Reset form
         this.examData = {
           student: { first_name: '', last_name: '' },
